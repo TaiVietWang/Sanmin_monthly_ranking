@@ -1,2 +1,4 @@
 # Sanmin_monthly_ranking
 一支用 Python（Jupyter Notebook）撰寫的三民書局「最新月份排行榜」爬蟲，僅抓取單一月份的排行榜資料，避免對網站造成過大負載。可自動擷取書名、作者、出版社、出版日期、價格、折扣、分類等資訊並輸出 CSV，並提供簡易設定讓使用者自行修改月份參數 base_url 抓取不同月份的資料。僅供研究與技術交流，請遵守網站服務條款與 robots.txt。
+
+A Python (Jupyter Notebook) crawler for Sanmin.com.tw’s "Latest Monthly Ranking", fetching only a single month’s ranking list to minimize server load. It extracts key book details (title, author, publisher, publish date, price, discount, category, etc.) and exports them to CSV. Users can easily change the base_url parameter to scrape other months’ rankings. For research and educational purposes only – please respect the site’s Terms of Service and robots.txt.
